@@ -42,7 +42,7 @@
         var metaText = "";
         for (var key in options) {
             if (options.hasOwnProperty(key)) {
-                if (key == "title" || key == "description" || key == "image" || key == "keywords") {
+                if (key == "title" || key == "description" || key == "image") {
                     createMetaTag(key, options[key], false);
                     createMetaTag(key, options[key], true);
                 } else {
